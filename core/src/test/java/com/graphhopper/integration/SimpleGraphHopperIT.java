@@ -30,7 +30,6 @@ public class SimpleGraphHopperIT {
                 .setProfiles(TestProfiles.accessAndSpeed("car", "car"));
 
         hopper.importOrLoad();
-
         assertTrue("Le graphe doit contenir des noeuds",
                 hopper.getBaseGraph().getNodes() > 0);
 
