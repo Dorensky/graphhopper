@@ -10,7 +10,7 @@ import java.nio.file.Files;
 
 import static org.junit.Assert.*;
 
-public class SimpleGraphHopperIT {
+public class SimpleGraphHopperTest {
 
     @Test
     public void method() throws Exception {
